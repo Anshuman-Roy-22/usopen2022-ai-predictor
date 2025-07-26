@@ -1,0 +1,8 @@
+# Data files
+data/
+# Python caches
+__pycache__/
+# Trained model
+*.joblib
+# Jupyter checkpoints
+.ipynb_checkpoints/
