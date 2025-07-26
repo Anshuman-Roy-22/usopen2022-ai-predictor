@@ -10,8 +10,8 @@ with open("model_features.json") as f:
 
 # Mock example
 pract = {
-    "elo_diff": 80,     # winner Elo - loser Elo
-    "seed_diff": -2     # loser seed - winner seed
+    "elo_diff": 80,    # winner Elo - loser Elo
+    "seed_diff": -2    # loser seed - winner seed
 }
 
 # Convert to DataFrame
