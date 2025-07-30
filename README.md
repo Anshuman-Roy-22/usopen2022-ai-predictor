@@ -28,13 +28,13 @@ _**Formula**_: P(Player 1 Wins) = σ(z) = 1/(1+e^(-z))
 **Quickstart**
 
 **Step 1: Clone and Install**
-git clone https://github.com/Anshuman-Roy-22/usopen2022-predictor.git
-cd usopen2022-predictor
-pip install -r requirements.txt
+1. git clone https://github.com/Anshuman-Roy-22/usopen2022-predictor.git
+2. cd usopen2022-predictor
+3. pip install -r requirements.txt
 
 **Step 2: Predict a Match**
-python predict.py --player1 "Carlos Alcaraz" --player2 "Casper Ruud"
-python predict.py --player1 "Tommy Paul" --player2 "Sebastian Korda"
+**- Ex.** python predict.py --player1 "Carlos Alcaraz" --player2 "Casper Ruud"
+**- Ex.** python predict.py --player1 "Tommy Paul" --player2 "Sebastian Korda"
 
 **Output**
 <img width="978" height="181" alt="Image" src="https://github.com/user-attachments/assets/06126956-3ffe-4608-8dc2-8be1b3d95034" />
