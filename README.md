@@ -14,7 +14,7 @@ This project uses Elo ratings and seed data to predict the winner of a tennis ma
 - Higher Elo = Higher Chance of Winning
 - Elo Changes after every match, thus if Player A was the favorite and won, there would be a slight increase, in comparison to if Player B won.
 
-_**Formula**: EA = %\dfrac{1}{1 + 10^(\dfrac{Elo_B-Elo_A}{400}%_
+_**Formula**: EA = 1/(1 + 10^(Elo_B-Elo_A/400}
 
 **Logistic Regression Model**
 - Binary classification model used to estimate the probability that Player 1 wins a given match.
@@ -23,7 +23,7 @@ _**Formula**: EA = %\dfrac{1}{1 + 10^(\dfrac{Elo_B-Elo_A}{400}%_
 - Sigmoid function squashes the result into a probability between 0 and 1
 
 
-_**Formula**_: P(Player 1 Wins) = σ(z) = 1/(1+e^-z)
+_**Formula**_: P(Player 1 Wins) = σ(z) = 1/(1+e^(-z))
 
 **Quickstart**
 
