@@ -46,8 +46,8 @@ python predict.py --player1 "Tommy Paul" --player2 "Sebastian Korda"
 - Incorporating a functional frontend, such as an online dashboard, would be beneficial.
 
 **Acknowledgements**
-Inspired by AI Work at the US Open 
-Data Source (once again): https://github.com/serve-and-volley/atp-world-tour-tennis-data
+- Inspired by AI Work at the US Open 
+- Data Source (once again): https://github.com/serve-and-volley/atp-world-tour-tennis-data
 
 **Contact**
 Made by Anshuman Roy, reach out via GitHub with any questions/concerns.
